@@ -403,6 +403,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="443" height="161" alt="image" src="https://github.com/user-attachments/assets/14e1f435-681c-4c20-b567-8a4a276b5767" />
 
 cat < urllist.txt
 ```
@@ -419,6 +420,7 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="470" height="116" alt="image" src="https://github.com/user-attachments/assets/c432c43d-c335-497e-9466-53fecf39007b" />
 
 
  
@@ -426,10 +428,16 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
 
+<img width="455" height="104" alt="image" src="https://github.com/user-attachments/assets/3ca66e20-35ca-41a2-aa4f-4d99ad847270" />
+
+
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+
+
+<img width="478" height="152" alt="image" src="https://github.com/user-attachments/assets/cfb641e6-6ecb-4ecc-9eaf-bb090684d321" />
 
 
 mkdir backupdir
@@ -440,18 +448,24 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="465" height="150" alt="image" src="https://github.com/user-attachments/assets/9c70df7b-d0d1-46ba-9f22-117f16706caa" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="469" height="154" alt="image" src="https://github.com/user-attachments/assets/d49c6606-727d-448d-a70f-80f337f4e88d" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+
+<img width="449" height="59" alt="image" src="https://github.com/user-attachments/assets/210f3797-758c-490d-bf46-c893e6a6775d" />
+
  
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="461" height="103" alt="image" src="https://github.com/user-attachments/assets/51d82df6-50e7-49c6-ac89-8c5bb467b564" />
 
  
 # Shell Script
@@ -462,6 +476,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+
+<img width="466" height="69" alt="image" src="https://github.com/user-attachments/assets/22d69269-5c91-4899-91dc-995a1a37014b" />
 
  
 cat << stop > herecheck.txt
@@ -474,6 +490,8 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+
+<img width="461" height="94" alt="image" src="https://github.com/user-attachments/assets/167e4290-ad30-4a32-86f9-f60a043a0880" />
 
 
 cat < scriptest.sh 
@@ -513,22 +531,30 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
+<img width="436" height="214" alt="image" src="https://github.com/user-attachments/assets/c14959b0-5d84-42eb-b083-282b5169bc14" />
+
  
 ls file1
 ## OUTPUT
+<img width="470" height="72" alt="image" src="https://github.com/user-attachments/assets/57aeca00-e5db-46fd-9b43-dbfde3deaf96" />
 
 echo $?
 ## OUTPUT 
 ./one
 bash: ./one: Permission denied
+<img width="478" height="113" alt="image" src="https://github.com/user-attachments/assets/f814c2cb-e1d8-45bd-9cb4-b8bf01b2b6bd" />
+
  
 echo $?
 ## OUTPUT 
  
 abcd
+<img width="475" height="43" alt="image" src="https://github.com/user-attachments/assets/36d35f1f-a84a-4144-a143-d1fe56044d8b" />
+
  
 echo $?
  ## OUTPUT
+<img width="403" height="72" alt="image" src="https://github.com/user-attachments/assets/450da70a-ccfa-4f1b-9cdf-85f804b6cbf5" />
 
 
  
@@ -562,12 +588,14 @@ fi
 ```
 ##OUTPUT
 
+<img width="463" height="174" alt="image" src="https://github.com/user-attachments/assets/59df7a95-923b-4f47-a814-b29568f8fed2" />
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="446" height="274" alt="image" src="https://github.com/user-attachments/assets/79358ac8-67bd-4d01-8c9c-9dce62d6efcf" />
 
 
 # check file ownership
@@ -595,6 +623,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="448" height="106" alt="image" src="https://github.com/user-attachments/assets/22715e4e-a649-49f0-8df0-580340aadc50" />
 
 # check if with file location
 cat>ifnested.sh 
