@@ -715,6 +715,9 @@ $ chmod 755 iftest.sh
 $ ./iftest.sh 
 ##OUTPUT
 
+<img width="476" height="283" alt="image" src="https://github.com/user-attachments/assets/5f5192ae-5dea-4048-ab4f-2f3b70c1f33e" />
+
+
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -763,6 +766,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="462" height="157" alt="image" src="https://github.com/user-attachments/assets/72a5e2d4-a341-40d4-8800-59aa19f132a1" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -807,6 +811,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="452" height="126" alt="image" src="https://github.com/user-attachments/assets/eefc0df8-d5ed-43b6-b8c0-d489e6f20e4e" />
 
 # using the case command
 cat >casecheck.sh 
@@ -842,7 +847,8 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+ <img width="467" height="249" alt="image" src="https://github.com/user-attachments/assets/5f6ec460-5fbc-49dc-8aeb-11864ac33382" />
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -868,7 +874,9 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+
+ <img width="458" height="266" alt="image" src="https://github.com/user-attachments/assets/abe3ddcf-3ec6-422d-9eab-85ee011ae5e5" />
+
  
 cat forin2.sh 
 ```bash
