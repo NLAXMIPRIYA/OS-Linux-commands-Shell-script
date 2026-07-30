@@ -902,7 +902,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+<img width="456" height="238" alt="image" src="https://github.com/user-attachments/assets/26f6c738-c082-467e-973f-d1ad8f33881c" />
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -913,7 +914,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ <img width="469" height="200" alt="image" src="https://github.com/user-attachments/assets/7d102002-e295-4862-9b5f-adc7b6024f2b" />
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -926,6 +928,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+<img width="457" height="230" alt="image" src="https://github.com/user-attachments/assets/f25234cc-2563-4dbb-b866-965426e64a0d" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
