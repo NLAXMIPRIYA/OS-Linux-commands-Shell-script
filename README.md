@@ -1048,7 +1048,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- ![Uploading image.png…]()
+ <img width="308" height="97" alt="image" src="https://github.com/user-attachments/assets/e2d3305d-6be3-4ded-972c-c6fa953f2a79" />
 
 cat exread.sh 
 ```bash
@@ -1063,6 +1063,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="310" height="107" alt="image" src="https://github.com/user-attachments/assets/3a34cec3-b2d9-46a9-a8f0-2094aa96a107" />
 
 
  cat exread1.sh
@@ -1076,6 +1077,7 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
+![Uploading image.png…]()
 
 
 $ ./exread1.sh 
