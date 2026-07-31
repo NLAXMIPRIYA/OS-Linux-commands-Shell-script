@@ -951,6 +951,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+<img width="470" height="218" alt="image" src="https://github.com/user-attachments/assets/cf7ae4ea-d106-40d3-8b14-0cd1dffb94b6" />
 
 
 cat forctype.sh 
@@ -958,13 +959,16 @@ cat forctype.sh
 #!/bin/bash
 # testing the C-style for loop
 for (( i=1; i <= 5; i++ ))
-do
+do 
 echo "The value of i is $i"
 done
 ````
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+
+<img width="175" height="128" alt="image" src="https://github.com/user-attachments/assets/59f6fb21-69ca-43a8-81b5-baea98c217db" />
+
 
 cat forctype1.sh 
 ```bash
@@ -978,6 +982,9 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
+<img width="316" height="155" alt="image" src="https://github.com/user-attachments/assets/c1555d64-b800-4ff9-ac41-e89f08586197" />
+
 
 cat fornested1.sh 
 ```bash
@@ -996,6 +1003,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<img width="290" height="166" alt="image" src="https://github.com/user-attachments/assets/0424a843-2b4d-4279-b7d5-f0a5c03ed60e" />
 
  
 cat forbreak.sh 
@@ -1013,6 +1021,8 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+
+<img width="308" height="140" alt="image" src="https://github.com/user-attachments/assets/52f85284-dc13-40d6-bf72-ca6215915786" />
 
 $ chmod 755 forbreak.sh
  
@@ -1038,7 +1048,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![Uploading image.png…]()
+
 cat exread.sh 
 ```bash
 #!/bin/bash
