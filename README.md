@@ -1017,7 +1017,7 @@ then
 break
 fi
 echo "Iteration number: $var1"
-done
+done 
 echo "The for loop is completed“
 ```
 ## OUTPUT
