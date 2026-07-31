@@ -1077,7 +1077,7 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
-![Uploading image.png…]()
+<img width="386" height="110" alt="image" src="https://github.com/user-attachments/assets/484fdfd5-530b-4723-8a63-46e76016c712" />
 
 
 $ ./exread1.sh 
@@ -1103,7 +1103,9 @@ fi
  
  ./funcex.sh 1 2
 
- 
+<img width="386" height="110" alt="image" src="https://github.com/user-attachments/assets/39873504-5b27-421a-af08-ed28f90a7f41" />
+
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1116,6 +1118,9 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+
+<img width="455" height="140" alt="image" src="https://github.com/user-attachments/assets/a8335513-1386-47e0-b9ed-9b23a52203aa" />
+
  
  cat argshift1.sh
 ```bash
@@ -1133,7 +1138,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ <img width="459" height="130" alt="image" src="https://github.com/user-attachments/assets/1ed046b4-dc51-4c4c-94ee-9de7de7050f0" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1146,7 +1152,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ <img width="407" height="263" alt="image" src="https://github.com/user-attachments/assets/ecab258f-7229-4688-9160-4c5f71f19e1f" />
+
  
 cat > nc.awk
 ```bash
@@ -1162,22 +1169,16 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
-cat>data.dat
+cat > sample
 ```bash
-bcdfghj
-abcdfghj
-bcdfghj
-ebcdfghj
-bcdfghj
-ibcdfghj
-bcdfghj
-obcdfghj
-bcdfghj
-ubcdfghj
+Hello World
+Linux is fun
+AWK is powerful
 ```
-awk -f nc.awk data.dat
+awk -f nc.awk sample
 ## OUTPUT 
- 
+ <img width="170" height="164" alt="image" src="https://github.com/user-attachments/assets/969c6ad5-7c16-4d39-9396-3f4cc385a607" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1204,7 +1205,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+<img width="458" height="122" alt="image" src="https://github.com/user-attachments/assets/54610282-0494-43e3-87af-f6b919d23c68" />
 
 # RESULT:
 The Commands are executed successfully.
